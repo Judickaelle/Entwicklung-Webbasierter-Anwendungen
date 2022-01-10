@@ -1,0 +1,9 @@
+Options -Indexes
+#AllowOverride AuthConfig   
+AuthType Basic
+AuthName "access control"
+AuthUserFile c:\xampp20\htdocs\ewa\G09\conf\.htpasswd
+Require valid-user
+# Auth per group. 
+#AuthGroupFile c:\xampp15\htdocs\ewa\G09\conf\groups
+#Require group ewagroup

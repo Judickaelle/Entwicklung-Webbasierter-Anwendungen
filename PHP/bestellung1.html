@@ -1,0 +1,35 @@
+ <html>
+ <head>
+	<meta charset="UTF-8" />
+	<title>EwA_WS2021-2022</title>
+</head>
+<body>
+
+<h2>Formular</h2>
+
+<p>Es gibt nur drei Bücher : </p>
+<ul>
+	<li>Self-PHP</li>
+	<li>PHP-Referenz</li>
+	<li>PHP-Kochbuch</li>
+</ul><br>
+
+<form action="berechnung1.php" method="post">
+	<label for="ebuch">1. Buch:</label><br>
+	<input type="text" id="ebuch" name="ebuch"><input type="number" name="ebuchquantity" id="ebuchquantity" value="1"><br>
+	<label for="zbuch">2. Buch:</label><br>
+	<input type="text" id="zbuch" name="zbuch"><input type="number" name="zbuchquantity" id="zbuchquantity" value="0"><br>
+	<label for="dbuch">3. Buch:</label><br>
+	<input type="text" id="dbuch" name="dbuch" ><input type="number" name="dbuchquantity" id="dbuchquantity" value="0"><br><br>
+	<label for="userArrived">Wie sind Sie auf diese Seite angekommen ?</label>
+	<select id="userArrived" name="userArrived">
+		<option value="Stammkunde">Stammkunde</option>
+		<option value="Suchmachine">Suchmachine</option>
+		<option value="Bekannter">Bekannter</option>
+		<option value="Andere">Andere</option>
+	</select>
+	<input type="submit">
+</form>
+
+</body>
+</html>
